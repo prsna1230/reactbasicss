@@ -1,0 +1,27 @@
+{
+  "name": "reactbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prsna1230/Reactbasics.git"
+  },
+  "author": "Prasanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prsna1230/Reactbasics/issues"
+  },
+  "homepage": "https://github.com/prsna1230/Reactbasics#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
