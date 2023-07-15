@@ -4,6 +4,8 @@
   "description": "",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,15 +15,26 @@
   "author": "Prasanna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prsna1230/Reactbasics/issues"
+    "url": "https://github .com/prsna1230/Reactbasics/issues"
   },
   "homepage": "https://github.com/prsna1230/Reactbasics#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
     "parcel": "^2.9.3",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.1"
   },
   "dependencies": {
+    "openai": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome version"
+  ]
 }
